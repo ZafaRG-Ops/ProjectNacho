@@ -1,0 +1,113 @@
+Manual
+######
+
+Descargar
+*********
+
+-Primero de todo tenemos que entrar en la pagina web https://www.jetbrains.com/phpstorm/ y descargar donde dice download
+
+.. image:: a.png
+   :width: 1000 px
+
+Instalacion
+***********
+
+
+- Una vez descargado tenenos que abrir el instalador con doble click o boton derecho y abrir 
+- Presionamos en NEXT
+
+.. image:: 1.PNG
+   :width: 1000 px
+
+- Selecionamos el destino de la instalacion y NEXT
+
+.. image:: 2.PNG
+   :width: 1000 px
+
+- Dejaremos tal cual el nombre y NEXT
+
+.. image:: 3.PNG
+   :width: 1000 px
+
+- Esperamos a que se finalize la instalacion..
+
+.. image:: 4.PNG
+   :width: 1000 px
+   
+- Hacemos click en FINISH
+
+.. image:: 5.PNG
+   :width: 1000 px
+
+- y listo ya lo tendremo instalado el Phpstorm
+
+.. image:: 6.PNG
+   :width: 200 px
+
+Ejecucion
+*********
+
+- Al ejecutar nos pedira para importar la configuracion para el phpstorm selecionamos DO NOT IMPORT SETTINGS y OK
+
+.. image:: 7.PNG
+   :width: 1000 px
+
+- Nos pedira para poder selecionar el tema para nuestro phpstorm selecionamos el que mas nos guste y hacemos click en NEXT
+
+.. image:: 8.PNG
+   :width: 1000 px
+
+- Tambien nos pedira para poder instalar plugins (Extenciones) para nuestro phpstorm y hacemos click en NEXT
+
+.. image:: 9.PNG
+   :width: 1000 px
+
+- Como ya sabemos que phpstorm es de licencia pero nos da la opion de prueba gratiuita de 30 Dias selecionamos Evaluate for free y hacemos click en ACTIVATE
+
+.. image:: 10.PNG
+   :width: 1000 px
+
+- Hacemos click en Create New Project
+
+.. image:: 11.PNG
+   :width: 1000 px
+
+- Selecionamos Php Empty project y CREATE 
+
+.. image:: 12.PNG
+   :width: 1000 px
+
+- Y listo Ya tenemos nuestro projecto creado 
+
+.. image:: 13.PNG
+   :width: 1000 px
+
+Hola mundo
+**********
+
+- Para poder hacer un hola mundo tenemos que poner 
+
+<?php
+
+echo 'hola mundo'; 
+
+?>
+
+- y guardar el archivo ctrl + s 
+
+.. image:: 14.PNG
+   :width: 1000 px
+
+- Abrimos la el terminal con alt + f12 y escribimos php (nombre del archivo)
+
+.. image:: 15.PNG
+   :width: 1000 px
+
+- Y nos aparecera el Hola mundo 
+
+.. image:: 16.PNG
+   :width: 1000 px
+.. image:: 17.PNG
+   :width: 1000 px
+
+   
