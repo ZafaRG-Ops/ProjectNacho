@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:53,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{"\u00edndice":0,"b\u00fasqueda":0,"m\u00f3dulo":0,"p\u00e1gina":0},titles:["Welcome to Phpstorm\u2019s documentation!"],titleterms:{document:0,indic:0,phpstorm:0,tabl:0,welcom:0}})
