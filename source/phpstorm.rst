@@ -66,6 +66,11 @@ Ejecucion
 
 .. image:: 10.PNG
    :width: 1000 px
+.. image:: sel.png
+   :width: 1000 px
+
+Hola mundo
+**********
 
 - Hacemos click en Create New Project
 
@@ -82,9 +87,6 @@ Ejecucion
 .. image:: 13.PNG
    :width: 1000 px
 
-Hola mundo
-**********
-
 - Para poder hacer un hola mundo tenemos que poner 
 
 <?php
@@ -99,15 +101,55 @@ echo 'hola mundo';
    :width: 1000 px
 
 - Abrimos la el terminal con alt + f12 y escribimos php (nombre del archivo)
+- Y nos aparecera el Hola mundo 
 
 .. image:: 15.PNG
    :width: 1000 px
 
-- Y nos aparecera el Hola mundo 
+- Si tenemos algun error en el fichero nos va a avisar de la siguiente manera
 
-.. image:: 16.PNG
-   :width: 1000 px
-.. image:: 17.PNG
+.. image:: error.png
    :width: 1000 px
 
+Ampliacion
+**********
+
+- Para poder trabajar con otros lenguajes tendremos que crear un nuevo projecto por ello vamos a FILE > CREATE NEW PROJECT 
+
+.. image:: 20.png
+   :width: 1000 px
+
+- Selecionamos el projecto que queramos en este caso selecionare REACT APP y CREATE
+
+.. image:: 21.png
+   :width: 1000 px
+
+- Se nos empezara a descargar el projecto de REACT
+
+.. image:: 22.png
+   :width: 1000 px
+
+- Done
+
+.. image:: 23.png
+   :width: 1000 px
    
+- Para inciar la aplicaion REACT abrimos el terminal alt + f12 y escribimos 
+
+npm start 
+
+.. image:: 24.png
+   :width: 1000 px
+
+- Abrimos un navegador y escribimos http://localhost:3000/
+
+.. image:: 25.png
+   :width: 1000 px
+
+- Listo!!!!!!!! A Programar!!!!
+
+Interfaz Grafica
+****************
+
+-No tiene Interfaz Grafica
+
