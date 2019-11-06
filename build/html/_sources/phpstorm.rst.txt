@@ -158,67 +158,128 @@ Refactory
 
 Git
 ***
+- Para poder trabajar con Git desde Phpstorm nos dirigimos al menu superior VCS -> Checkout from Version Control > Git
 
 .. image:: git1.png
    :width: 500 px
 
+- Tendremos que poner nuestro link para poder clonar el repositorio que queramos y hacemos click en CLONE
+
 .. image:: git2.PNG
    :width: 1000 px
 
+- Esperamos a que se finalize la clonacion 
 
 .. image:: git3.PNG
    :width: 1000 px
 
+- Hacemos click en Yes para poder abrir la carpeta del proyecto
+
 .. image:: git4.PNG
    :width: 1000 px
+
+- This Windows para poder abrir en la ventana actual o New window para poder abrir aparte 
 
 .. image:: git5.PNG
    :width: 1000 px
 
+- y Ya tendremos nuestro proyecto para poder trabjar con el
+
 .. image:: git6.PNG
-   :width: 1000 px
+   :width: 200 px
+
+- Para poder añadir archivos en el repositorio tendremos que crear un nuevo archivo y nos pedira si queremos añadir a nuestro repositorio 
+- hacemos click en Add y ya tendremos el archivo en nuestro repositorio pero en local no en el repositorio del github en este caso estamos utilizando el github.
 
 .. image:: git7.PNG
-   :width: 1000 px
+   :width: 500 px
+
+- Tenemos este archivo ahora hacemos una prueba con el test.php
 
 .. image:: git8.PNG
    :width: 1000 px
 
-.. image:: git9.png
+- Para hacer push de nuestro repositorio nos dirigimos hacia el VCS > Git > Push
+
+.. image:: git10.PNG
    :width: 1000 px
+
+- Tendremos que poner un mensaje a nuestro commit siempre es recomendable poner un mensaje que tenga relacion con los cambios que hayamos hecho.
+
+- Tendremos que poner nuestra cuenta de github para poder hacer el push y que el programa sepa que somos nostros quien esta haciendo el push y no otra persona.
+
+.. image:: git13.PNG
+   :width: 1000 px
+
+- Y ya tendemos hecho el push a nuestro repositorio 
+
+.. image:: git14.PNG
+   :width: 1000 px
+
+- Como podemos ver nos avisa de que ya esta hecho el push con un mensaje 
+
+.. image:: git15.PNG
+   :width: 1000 px
+
+- Y aqui tenemos nuestro archivo que hemos creado anterior mente
+
+.. image:: git16.PNG
+   :width: 1000 px
+
+- Git finish
 
 Linter
 ******
 
+- Este es nuestro Phpstorm actual que viene por defecto el estilo
+
 .. image:: linter0.png
-   :width: 1000 px
+   :width: 500 px
+
+- Para poder cambiar de estilo nos dirigimos hacia (File > Settings  O Ctrl + Alt + S)
 
 .. image:: linter1.png
-   :width: 1000 px
+   :width: 500 px
+
+- En el menu derecho hacemos click en Plugins buscamos el plugin que queramos instalar y hacemos click en instalar 
 
 .. image:: linter2.png
-   :width: 1000 px
+   :width: 500 px
+
+- Esperamos a Que se instale el plugin 
 
 .. image:: linter3.png
-   :width: 1000 px
+   :width: 500 px
+
+- Y tendremos que reiniciar el Phpstorm
 
 .. image:: linter4.png
-   :width: 1000 px
+   :width: 500 px
+
+- Al reiniciar se nos cambiara de aspecto hacemos click en Next
 
 .. image:: linter5.png
-   :width: 1000 px
+   :width: 500 px
+
+- Podemos elegir entre Oceanic o Darker Entre otras y Next
 
 .. image:: linter6.PNG
-   :width: 1000 px
+   :width: 500 px
+
+- podemos gestionar tambien el estilo de las carpetas que queramos y Next
 
 .. image:: linter7.png
-   :width: 1000 px
+   :width: 500 px
+
+- Tendremos que esperar a que se complete la instalacion
 
 .. image:: linter8.png
-   :width: 1000 px
+   :width: 500 px
+
+- Y listo Ya tendremos nuestro nuevo Phpstorm instalado 
 
 .. image:: linter9.png
-   :width: 1000 px
+   :width: 500 px
 
 Refactory
 *********
