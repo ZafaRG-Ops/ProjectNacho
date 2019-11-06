@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Manual &mdash; documentación de Phpstorm - 1.1</title>
+  <title>Manual &mdash; intellij  documentation</title>
   
 
   
@@ -25,7 +25,6 @@
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
         <script type="text/javascript" src="_static/language_data.js"></script>
-        <script type="text/javascript" src="_static/translations.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -34,8 +33,8 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="Índice" href="genindex.html" />
-    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Welcome to Phpstorm’s documentation!" href="index.html" /> 
 </head>
 
@@ -50,7 +49,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Phpstorm
+            <a href="index.html" class="icon icon-home"> intellij
           
 
           
@@ -58,10 +57,6 @@
 
           
             
-            
-              <div class="version">
-                1
-              </div>
             
           
 
@@ -95,6 +90,12 @@
 <li class="toctree-l2"><a class="reference internal" href="#interfaz-grafica">Interfaz Grafica</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="#refactory">Refactory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#git">Git</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#linter">Linter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Refactory</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -109,7 +110,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Phpstorm</a>
+          <a href="index.html">intellij</a>
         
       </nav>
 
@@ -160,14 +161,14 @@
            <div itemprop="articleBody">
             
   <div class="section" id="manual">
-<h1>Manual<a class="headerlink" href="#manual" title="Enlazar permanentemente con este título">¶</a></h1>
+<h1>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="descargar">
-<h2>Descargar<a class="headerlink" href="#descargar" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Descargar<a class="headerlink" href="#descargar" title="Permalink to this headline">¶</a></h2>
 <p>-Primero de todo tenemos que entrar en la pagina web <a class="reference external" href="https://www.jetbrains.com/phpstorm/">https://www.jetbrains.com/phpstorm/</a> y descargar donde dice download</p>
 <a class="reference internal image-reference" href="_images/a.png"><img alt="_images/a.png" src="_images/a.png" style="width: 1000px;" /></a>
 </div>
 <div class="section" id="instalacion">
-<h2>Instalacion<a class="headerlink" href="#instalacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Instalacion<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Una vez descargado tenenos que abrir el instalador con doble click o boton derecho y abrir</li>
 <li>Presionamos en NEXT</li>
@@ -195,7 +196,7 @@
 <a class="reference internal image-reference" href="_images/6.PNG"><img alt="_images/6.PNG" src="_images/6.PNG" style="width: 200px;" /></a>
 </div>
 <div class="section" id="ejecucion">
-<h2>Ejecucion<a class="headerlink" href="#ejecucion" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Ejecucion<a class="headerlink" href="#ejecucion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Al ejecutar nos pedira para importar la configuracion para el phpstorm selecionamos DO NOT IMPORT SETTINGS y OK</li>
 </ul>
@@ -215,7 +216,7 @@
 <a class="reference internal image-reference" href="_images/sel.png"><img alt="_images/sel.png" src="_images/sel.png" style="width: 1000px;" /></a>
 </div>
 <div class="section" id="hola-mundo">
-<h2>Hola mundo<a class="headerlink" href="#hola-mundo" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Hola mundo<a class="headerlink" href="#hola-mundo" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Hacemos click en Create New Project</li>
 </ul>
@@ -232,7 +233,7 @@
 <li>Para poder hacer un hola mundo tenemos que poner</li>
 </ul>
 <p>&lt;?php</p>
-<p>echo “hola mundo”;</p>
+<p>echo ‘hola mundo’;</p>
 <p>?&gt;</p>
 <ul class="simple">
 <li>y guardar el archivo ctrl + s</li>
@@ -249,7 +250,7 @@
 <a class="reference internal image-reference" href="_images/error.png"><img alt="_images/error.png" src="_images/error.png" style="width: 1000px;" /></a>
 </div>
 <div class="section" id="ampliacion">
-<h2>Ampliacion<a class="headerlink" href="#ampliacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Ampliacion<a class="headerlink" href="#ampliacion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Para poder trabajar con otros lenguajes tendremos que crear un nuevo projecto por ello vamos a FILE &gt; CREATE NEW PROJECT</li>
 </ul>
@@ -280,8 +281,46 @@
 </ul>
 </div>
 <div class="section" id="interfaz-grafica">
-<h2>Interfaz Grafica<a class="headerlink" href="#interfaz-grafica" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2>Interfaz Grafica<a class="headerlink" href="#interfaz-grafica" title="Permalink to this headline">¶</a></h2>
 <p>-No tiene Interfaz Grafica</p>
+</div>
+</div>
+<div class="section" id="refactory">
+<h1>Refactory<a class="headerlink" href="#refactory" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="git">
+<h2>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/git1.png"><img alt="_images/git1.png" src="_images/git1.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="_images/git2.PNG"><img alt="_images/git2.PNG" src="_images/git2.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git3.PNG"><img alt="_images/git3.PNG" src="_images/git3.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git4.PNG"><img alt="_images/git4.PNG" src="_images/git4.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git5.PNG"><img alt="_images/git5.PNG" src="_images/git5.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git6.PNG"><img alt="_images/git6.PNG" src="_images/git6.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git7.PNG"><img alt="_images/git7.PNG" src="_images/git7.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git8.PNG"><img alt="_images/git8.PNG" src="_images/git8.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/git9.png"><img alt="_images/git9.png" src="_images/git9.png" style="width: 1000px;" /></a>
+</div>
+<div class="section" id="linter">
+<h2>Linter<a class="headerlink" href="#linter" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/linter0.png"><img alt="_images/linter0.png" src="_images/linter0.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter1.png"><img alt="_images/linter1.png" src="_images/linter1.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter2.png"><img alt="_images/linter2.png" src="_images/linter2.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter3.png"><img alt="_images/linter3.png" src="_images/linter3.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter4.png"><img alt="_images/linter4.png" src="_images/linter4.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter5.png"><img alt="_images/linter5.png" src="_images/linter5.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter6.PNG"><img alt="_images/linter6.PNG" src="_images/linter6.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter7.png"><img alt="_images/linter7.png" src="_images/linter7.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter8.png"><img alt="_images/linter8.png" src="_images/linter8.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/linter9.png"><img alt="_images/linter9.png" src="_images/linter9.png" style="width: 1000px;" /></a>
+</div>
+<div class="section" id="id1">
+<h2>Refactory<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/ref1.PNG"><img alt="_images/ref1.PNG" src="_images/ref1.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref2.PNG"><img alt="_images/ref2.PNG" src="_images/ref2.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref3.png"><img alt="_images/ref3.png" src="_images/ref3.png" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref4.PNG"><img alt="_images/ref4.PNG" src="_images/ref4.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref5.PNG"><img alt="_images/ref5.PNG" src="_images/ref5.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref6.PNG"><img alt="_images/ref6.PNG" src="_images/ref6.PNG" style="width: 1000px;" /></a>
+<a class="reference internal image-reference" href="_images/ref7.PNG"><img alt="_images/ref7.PNG" src="_images/ref7.PNG" style="width: 1000px;" /></a>
 </div>
 </div>
 
@@ -303,7 +342,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Zafar Ahmad
+        &copy; Copyright 2019, Nerffren
 
     </p>
   </div>

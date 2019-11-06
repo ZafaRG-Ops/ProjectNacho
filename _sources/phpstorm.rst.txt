@@ -153,3 +153,89 @@ Interfaz Grafica
 
 -No tiene Interfaz Grafica
 
+Refactory
+#########
+
+Git
+***
+
+.. image:: git1.png
+   :width: 500 px
+
+.. image:: git2.PNG
+   :width: 1000 px
+
+
+.. image:: git3.PNG
+   :width: 1000 px
+
+.. image:: git4.PNG
+   :width: 1000 px
+
+.. image:: git5.PNG
+   :width: 1000 px
+
+.. image:: git6.PNG
+   :width: 1000 px
+
+.. image:: git7.PNG
+   :width: 1000 px
+
+.. image:: git8.PNG
+   :width: 1000 px
+
+.. image:: git9.png
+   :width: 1000 px
+
+Linter
+******
+
+.. image:: linter0.png
+   :width: 1000 px
+
+.. image:: linter1.png
+   :width: 1000 px
+
+.. image:: linter2.png
+   :width: 1000 px
+
+.. image:: linter3.png
+   :width: 1000 px
+
+.. image:: linter4.png
+   :width: 1000 px
+
+.. image:: linter5.png
+   :width: 1000 px
+
+.. image:: linter6.PNG
+   :width: 1000 px
+
+.. image:: linter7.png
+   :width: 1000 px
+
+.. image:: linter8.png
+   :width: 1000 px
+
+.. image:: linter9.png
+   :width: 1000 px
+
+Refactory
+*********
+
+
+
+.. image:: ref1.PNG
+   :width: 1000 px
+.. image:: ref2.PNG
+   :width: 1000 px
+.. image:: ref3.png
+   :width: 1000 px
+.. image:: ref4.PNG
+   :width: 1000 px
+.. image:: ref5.PNG
+   :width: 1000 px
+.. image:: ref6.PNG
+   :width: 1000 px
+.. image:: ref7.PNG
+   :width: 1000 px   
